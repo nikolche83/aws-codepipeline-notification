@@ -5,7 +5,6 @@
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/gammarers/aws-codepipeline-execution-state-change-notification-stack/release.yml?branch=main&label=release&style=flat-square)](https://github.com/gammarers/aws-codepipeline-execution-state-change-notification-stack/actions/workflows/release.yml)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gammarers/aws-codepipeline-execution-state-change-notification-stack?sort=semver&style=flat-square)](https://github.com/gammarers/aws-codepipeline-execution-state-change-notification-stack/releases)
 
-[![View on Construct Hub](https://constructs.dev/badge?package=@gammarers/aws-codepipeline-execution-state-change-notification-stack)](https://constructs.dev/packages/@gammarers/aws-codepipeline-execution-state-change-notification-stack)
 
 This AWS CDK Construct Stack receives all state changes of CodePipeline and sends a message to the specified notification destination when the CodePipeline is tagged with a specified tag. Therefore, you can send messages simply by adding tags without needing to configure notifications for each Pipeline.
 
